@@ -1,5 +1,5 @@
-import { Navbar } from "../../src/Components/Navbar.jsx";
-import { Paragraph } from "../../src/Components/Paragraph.jsx";
+import { Navbar } from "../../src/Components/Navbar";
+import { Paragraph } from "../../src/Components/Paragraph";
 
 const testNav = <Navbar bg="primary"><Paragraph size="lg">Test App</Paragraph><Paragraph size="sm">Login</Paragraph></Navbar>;
 
@@ -7,7 +7,6 @@ describe('Navbar.cy.js', () => {
   it('render navbar', () => {
     cy.mount(testNav)
     cy.get('nav').should('be.visible')
-    
   })
 
   it('renders nav text', () => {

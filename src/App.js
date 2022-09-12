@@ -9,6 +9,10 @@ import { Paragraph } from "./Components/Paragraph";
 import { Box } from "./Components/Box";
 
 function App() {
+  const handleClick = () => {
+    alert('Click happened');
+  };
+  
   return (
     <>
       <Container>
@@ -30,7 +34,7 @@ function App() {
           </Paragraph>
           <Input size="lg" placeholder="Email"/>
           <Input size="lg" placeholder="Password"/>
-          <Button size="lg" bg="primary">
+          <Button size="lg" bg="primary" onClick={handleClick}>
             Login
           </Button>
         </Box>

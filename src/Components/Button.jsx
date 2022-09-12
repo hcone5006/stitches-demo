@@ -1,6 +1,6 @@
 import { styled } from "@stitches/react";
 
-export const Button = styled("button", {
+export const StyledButton = styled("button", {
   // base styles
   display: "block",
   border: "none",
@@ -51,3 +51,5 @@ export const Button = styled("button", {
     },
   },
 });
+
+export const Button = (props) => <StyledButton {...props} />;
