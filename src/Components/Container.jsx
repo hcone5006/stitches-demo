@@ -10,12 +10,12 @@ export const Container = styled("div", {
   variants: {
     size: {
       sm: {
-        width: "100%",
-        height: "50px",
+        width: "75%",
+        marginLeft: "auto",
+        marginRight: "auto"
       },
       lg: {
         width: "100%",
-        height: "60px",
       },
     },
     align: {

@@ -18,13 +18,13 @@ export const Paragraph = styled("p", {
     },
     align: {
       center: {
-        alignItems: "center",
+        textAlign: "center",
       },
       left: {
-        alignItems: "flex-start",
+        textAlign: "left",
       },
       right: {
-        alignItems: "flex-end",
+        textAlign: "right",
       },
     },
   },
