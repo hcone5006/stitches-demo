@@ -1,6 +1,6 @@
 import { styled } from "@stitches/react";
 
-export const Navbar = styled("nav", {
+export const StyledNavbar = styled("nav", {
   display: "flex",
   flexDirection: "row",
   justifyContent: "space-between",
@@ -48,3 +48,5 @@ export const Navbar = styled("nav", {
     },
   },
 });
+
+export const Navbar = (props) => <StyledNavbar {...props} />;
