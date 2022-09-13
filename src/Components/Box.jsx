@@ -3,10 +3,18 @@ import { styled } from "@stitches/react";
 export const Box = styled("div", {
   display: "flex",
   justifyContent: "center",
-  flexDirection: "column",
+  // flexDirection: "column",
   padding: "15px",
 
   variants: {
+    direction: {
+      col: {
+        flexDirection: "column",
+      },
+      row: {
+        flexDirection: "row",
+      }
+    },
     align: {
       center: {
         alignItems: "center",

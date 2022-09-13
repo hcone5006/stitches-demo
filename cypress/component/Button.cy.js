@@ -4,7 +4,7 @@ const handleClick = () => {
   alert('Click happened');
 };
 
-const testButton = <Button size="lg" bg="primary" onClick={handleClick}>Submit</Button>
+const testButton = <Button size="large" bg="primary" onClick={handleClick}>Submit</Button>
 
 describe('Button.cy.js', () => {
   it('render button', () => {

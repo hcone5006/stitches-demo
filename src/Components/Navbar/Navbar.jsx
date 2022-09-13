@@ -11,11 +11,11 @@ export const StyledNavbar = styled("nav", {
   // base styles
   variants: {
     size: {
-      sm: {
+      small: {
         width: "100%",
         height: "50px",
       },
-      lg: {
+      large: {
         width: "100%",
         height: "60px",
       },
@@ -49,4 +49,4 @@ export const StyledNavbar = styled("nav", {
   },
 });
 
-export const Navbar = (props) => <StyledNavbar {...props} />;
+export const Navbar = (props) => <StyledNavbar {...props}>{ props.children }</StyledNavbar>;

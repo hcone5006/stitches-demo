@@ -5,12 +5,12 @@ export const Paragraph = styled("p", {
 
   variants: {
     size: {
-      sm: {
+      small: {
         fontSize: "1rem",
         fontWeight: "400",
         lineHeight: "1.2rem"
       },
-      lg: {
+      large: {
         fontSize: "2.2rem",
         fontWeight: "600",
         lineHeight: "2.5rem"

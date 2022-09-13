@@ -9,13 +9,13 @@ export const StyledButton = styled("button", {
 
   variants: {
     size: {
-      sm: {
+      small: {
         fontSize: "13px",
         height: "25px",
         paddingRight: "10px",
         paddingLeft: "10px",
       },
-      lg: {
+      large: {
         fontSize: "15px",
         height: "35px",
         paddingLeft: "15px",
@@ -52,4 +52,4 @@ export const StyledButton = styled("button", {
   },
 });
 
-export const Button = (props) => <StyledButton {...props} />;
+export const Button = (props) => <StyledButton {...props}>{props.label}</StyledButton>;

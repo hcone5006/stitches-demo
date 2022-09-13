@@ -1,7 +1,7 @@
-import { Navbar } from "../../src/Components/Navbar";
+import { Navbar } from "../../src/Components/Navbar/Navbar";
 import { Paragraph } from "../../src/Components/Paragraph";
 
-const testNav = <Navbar bg="primary"><Paragraph size="lg">Test App</Paragraph><Paragraph size="sm">Login</Paragraph></Navbar>;
+const testNav = <Navbar bg="primary"><Paragraph size="large">Test App</Paragraph><Paragraph size="small">Login</Paragraph></Navbar>;
 
 describe('Navbar.cy.js', () => {
   it('render navbar', () => {

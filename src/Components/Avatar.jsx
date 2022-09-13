@@ -6,11 +6,11 @@ export const Avatar = styled("img", {
   // base styles
   variants: {
     size: {
-      sm: {
+      small: {
         width: "25px",
         height: "25px",
       },
-      lg: {
+      large: {
         width: "50px",
         height: "50px",
       },

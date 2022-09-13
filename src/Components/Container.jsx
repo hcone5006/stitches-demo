@@ -9,12 +9,12 @@ export const Container = styled("div", {
 
   variants: {
     size: {
-      sm: {
+      small: {
         width: "75%",
         marginLeft: "auto",
         marginRight: "auto"
       },
-      lg: {
+      large: {
         width: "100%",
       },
     },
