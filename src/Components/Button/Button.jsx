@@ -22,7 +22,7 @@ export const StyledButton = styled("button", {
         paddingRight: "15px",
       },
     },
-    bg: {
+    variant: {
       primary: {
         backgroundColor: "#2196f3",
         border: "1px solid #fff",
@@ -32,9 +32,18 @@ export const StyledButton = styled("button", {
       },
       secondary: {
         backgroundColor: "transparent",
-        border: "1px solid #fff",
+        border: "1px solid #000",
+        color: "inherit",
         "&:hover": {
-          backgroundColor: "rgba(0,0,0,0.2)",
+          backgroundColor: "rgba(0,0,0,0.1)",
+        },
+      },
+      tertiary: {
+        backgroundColor: "transparent",
+        // border: "1px solid #000",
+        color: "inherit",
+        "&:hover": {
+          backgroundColor: "rgba(0,0,0,0.1)",
         },
       },
       danger: {

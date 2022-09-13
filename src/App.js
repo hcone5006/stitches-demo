@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-import { Button } from "./Components/Button";
+import { Button } from "./Components/Button/Button";
 import { Input } from "./Components/Input";
 import { Avatar } from "./Components/Avatar";
 import { Navbar } from "./Components/Navbar/Navbar";
@@ -18,10 +18,10 @@ function App() {
   return (
     <>
       <Container>
-        <Navbar bg="medium">
+        <Navbar bg="primary">
           <Logo src={LogoPath} alt="app logo" size="small" />
           <h1>App-Demo</h1>
-          <Button size="small" bg="primary" label="Login" onClick={handleClick} />
+          <Button size="small" variant="primary" label="Login" onClick={handleClick} />
         </Navbar>
       </Container>
 
@@ -37,7 +37,7 @@ function App() {
           </Paragraph>
           <Input size="large" placeholder="Email"/>
           <Input size="large" placeholder="Password"/>
-          <Button size="large" bg="primary" label="Login" onClick={handleClick} />
+          <Button size="large" variant="primary" label="Login" onClick={handleClick} />
         </Box>
       </Container>
 

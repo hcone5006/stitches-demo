@@ -26,7 +26,7 @@ export const StyledNavbar = styled("nav", {
         backgroundColor: "#F5f5f5",
         color: "#000",
       },
-      medium: {
+      primary: {
         backgroundColor: "#2196f3",
         color: "#fff",
       },

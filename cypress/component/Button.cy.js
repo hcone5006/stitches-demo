@@ -1,4 +1,4 @@
-import { Button } from '../../src/Components/Button';
+import { Button } from '../../src/Components/Button/Button';
 
 const handleClick = () => {
   alert('Click happened');
