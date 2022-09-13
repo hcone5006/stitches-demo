@@ -25,14 +25,16 @@ export const StyledButton = styled("button", {
     bg: {
       primary: {
         backgroundColor: "#2196f3",
+        border: "1px solid #fff",
         "&:hover": {
           backgroundColor: "#64b5f6",
         },
       },
       secondary: {
-        backgroundColor: "#009688",
+        backgroundColor: "transparent",
+        border: "1px solid #fff",
         "&:hover": {
-          backgroundColor: "#4db6ac",
+          backgroundColor: "rgba(0,0,0,0.2)",
         },
       },
       danger: {

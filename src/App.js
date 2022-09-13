@@ -18,12 +18,10 @@ function App() {
   return (
     <>
       <Container>
-        <Navbar bg="primary">
-          <Box align="left" direction="row">
-            <Logo src={LogoPath} alt="app logo" size="small" />
-            <h1>App-Demo</h1>
-          </Box>
-          <Paragraph size="small">LOGIN</Paragraph>
+        <Navbar bg="medium">
+          <Logo src={LogoPath} alt="app logo" size="small" />
+          <h1>App-Demo</h1>
+          <Button size="small" bg="primary" label="Login" onClick={handleClick} />
         </Navbar>
       </Container>
 

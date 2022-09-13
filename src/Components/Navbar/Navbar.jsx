@@ -21,32 +21,26 @@ export const StyledNavbar = styled("nav", {
       },
     },
     bg: {
-      primary: {
+      light: {
+        backgroundColor: "#F5f5f5",
+        color: "#000",
+      },
+      medium: {
         backgroundColor: "#2196f3",
-        "&:hover": {
-          backgroundColor: "#64b5f6",
-        },
+        color: "#fff",
       },
-      secondary: {
+      dark: {
         backgroundColor: "#009688",
-        "&:hover": {
-          backgroundColor: "#4db6ac",
-        },
-      },
-      danger: {
-        backgroundColor: "#f44336",
-        "&:hover": {
-          backgroundColor: "#ef9a9a",
-        },
-      },
-      success: {
-        backgroundColor: "#4caf50",
-        "&:hover": {
-          backgroundColor: "#a5d6a7",
-        },
+        color: "#fff",
       },
     },
   },
 });
 
-export const Navbar = (props) => <StyledNavbar {...props}>{ props.children }</StyledNavbar>;
+export const Navbar = (props) => {
+  return (
+    <StyledNavbar {...props}>
+      { props.children }
+    </StyledNavbar>
+  )
+};
