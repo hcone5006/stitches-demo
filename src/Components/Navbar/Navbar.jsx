@@ -1,4 +1,5 @@
 import { styled } from "@stitches/react";
+import "./Navbar.css";
 
 export const StyledNavbar = styled("nav", {
   display: "flex",
