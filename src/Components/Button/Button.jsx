@@ -1,4 +1,5 @@
 import { styled } from "@stitches/react";
+import "./Button.css";
 
 export const StyledButton = styled("button", {
   // base styles
