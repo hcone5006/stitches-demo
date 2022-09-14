@@ -7,6 +7,7 @@ import { Navbar } from "../../Components/Navbar/Navbar";
 import { Container } from "../../Components/Container";
 import { Paragraph } from "../../Components/Paragraph";
 import { Box } from "../../Components/Box";
+import { NavLink } from "react-router-dom";
 
 function Home() {
   const handleClick = () => {
@@ -15,7 +16,12 @@ function Home() {
   
   return (
     <>
-      <Navbar bg="primary" loginOnClick={handleClick} />
+      <Navbar bg="primary" loginOnClick={handleClick}>
+        <nav>
+          <NavLink to="/" className="nav-links">Home</NavLink>
+          <NavLink to="chart" className="nav-links">Chart</NavLink>
+        </nav>
+      </Navbar>
 
       <Container align="center" spacing="large">
         <Box border="solid" direction="col" space="small">

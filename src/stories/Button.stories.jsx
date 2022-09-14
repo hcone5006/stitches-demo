@@ -1,7 +1,7 @@
 import { Button } from "../Components/Button/Button";
 
 export default {
-  title: 'Button1',
+  title: 'Button',
   component: Button,
   argTypes: {
     size: {
