@@ -1,5 +1,10 @@
 import { styled } from "@stitches/react";
 import "./Navbar.css";
+import { Box } from "../../Components/Box";
+import { Logo } from "../../Components/Logo.jsx";
+import LogoPath from "../../logo.svg";
+import { Button } from "../../Components/Button/Button.jsx";
+
 
 export const StyledNavbar = styled("nav", {
   display: "flex",
@@ -41,7 +46,11 @@ export const StyledNavbar = styled("nav", {
 export const Navbar = (props) => {
   return (
     <StyledNavbar {...props}>
-      { props.children }
+      <Box direction="row" align="center" space="none">
+        <Logo src={LogoPath} alt="app logo" size="small" />
+        <span className="app-name">App-Demo</span>
+      </Box>
+      <Button size="small" variant="primary" label="Login" onClick={props.loginOnClick} />
     </StyledNavbar>
   )
 };

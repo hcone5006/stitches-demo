@@ -1,7 +1,6 @@
 import { Navbar } from '../Components/Navbar/Navbar.jsx';
 import { Logo } from '../Components/Logo.jsx';
-import { Button } from '../Components/Button/Button.jsx';
-import LogoPath from "../logo.svg";
+import '../Pages/Home/Home.css';
 
 export default {
   title: 'Navbar',
@@ -14,11 +13,7 @@ const handleClick = () => {
 };
 
 const Template = (args) => (
-  <Navbar {...args}>
-    <Logo src={LogoPath} alt="app logo" size="small" />
-    <h1>My App</h1>
-    <Button size="small" variant="primary" label="Login" onClick={handleClick} />
-  </Navbar>
+  <Navbar {...args} loginOnClick={handleClick} />
 )
 
 export const Primary = Template.bind({});
