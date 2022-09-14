@@ -1,12 +1,13 @@
 import { styled } from "@stitches/react";
 import "./Navbar.css";
+import { NavLink } from "react-router-dom";
 import { Box } from "../../Components/Box";
 import { Logo } from "../../Components/Logo.jsx";
 import LogoPath from "../../logo.svg";
 import { Button } from "../../Components/Button/Button.jsx";
 
 
-export const StyledNavbar = styled("nav", {
+export const StyledNavbar = styled("div", {
   display: "flex",
   flexDirection: "row",
   justifyContent: "space-between",
@@ -50,6 +51,10 @@ export const Navbar = (props) => {
         <Logo src={LogoPath} alt="app logo" size="small" />
         <span className="app-name">App-Demo</span>
       </Box>
+      <nav>
+        <NavLink to="/" className="nav-links">Home</NavLink>
+        <NavLink to="chart" className="nav-links">Chart</NavLink>
+      </nav>
       <Button size="small" variant="primary" label="Login" onClick={props.loginOnClick} />
     </StyledNavbar>
   )
