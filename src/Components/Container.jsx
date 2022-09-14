@@ -1,10 +1,10 @@
 import { styled } from "@stitches/react";
 
-export const Container = styled("div", {
+export const Container = styled("section", {
   display: "flex",
   flexDirection: "column",
   justifyContent: "center",
-  padding: "10px",
+  // padding: "10px",
   backgroundColor: "white",
 
   variants: {
@@ -29,5 +29,19 @@ export const Container = styled("div", {
         alignItems: "flex-end",
       },
     },
+    spacing: {
+      none: {
+        paddingTop: "0",
+        paddingBottom: "0",
+      },
+      small: {
+        paddingTop: "40px",
+        paddingBottom: "40px",
+      },
+      large: {
+        paddingTop: "80px",
+        paddingBottom: "80px",
+      }
+    }
   },
 });

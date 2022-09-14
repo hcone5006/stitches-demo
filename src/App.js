@@ -17,15 +17,13 @@ function App() {
   
   return (
     <>
-      <Container>
-        <Navbar bg="primary">
-          <Logo src={LogoPath} alt="app logo" size="small" />
-          <h1>App-Demo</h1>
-          <Button size="small" variant="primary" label="Login" onClick={handleClick} />
-        </Navbar>
-      </Container>
+      <Navbar bg="primary">
+        <Logo src={LogoPath} alt="app logo" size="small" />
+        <h1>App-Demo</h1>
+        <Button size="small" variant="primary" label="Login" onClick={handleClick} />
+      </Navbar>
 
-      <Container align="center">
+      <Container align="center" spacing="large">
         <Box border="solid" direction="col">
           <Avatar
             align="center"
@@ -41,7 +39,7 @@ function App() {
         </Box>
       </Container>
 
-      <Container size="small">
+      <Container size="small" spacing="large" css={{ paddingTop: 0 }}>
         <Box border="solid" direction="col">
           <Paragraph size="small" align="left">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus faucibus, orci sed faucibus luctus, nibh leo luctus quam, et pulvinar ex diam ac nisi. Vivamus quis interdum nisi. Ut posuere gravida turpis, a congue dui dictum in. Maecenas iaculis elit in enim rhoncus interdum. Fusce porttitor ornare tellus sed commodo. Aliquam erat volutpat. Phasellus elementum enim justo, quis maximus enim rutrum id. Sed tristique diam quis diam luctus, aliquam faucibus sapien accumsan. Nullam imperdiet nunc nulla, ac dapibus tellus mattis non. Cras quis enim massa. Vestibulum at tempus orci, non hendrerit turpis. Nulla metus sapien, suscipit vel metus eu, vulputate mollis dolor. Proin mauris lectus, pulvinar nec egestas id, auctor nec magna. Mauris sapien diam, pellentesque ut aliquet ac, hendrerit nec dolor. 
