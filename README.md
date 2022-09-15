@@ -1,3 +1,13 @@
+# Staging on Heroku
+[https://heidi-react-storybook-test-app.herokuapp.com/](Staging url)
+
+# Project dependencies
+- React app
+- D3 - Data viz
+- Stitches - CSS Framework
+- Storybook - Component library
+- Cypress - Component testing
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
