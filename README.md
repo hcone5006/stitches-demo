@@ -1,5 +1,5 @@
 # Staging on Heroku
-[https://heidi-react-storybook-test-app.herokuapp.com/](Staging url)
+[Staging url](https://heidi-react-storybook-test-app.herokuapp.com/)
 
 # Project dependencies
 - React app
