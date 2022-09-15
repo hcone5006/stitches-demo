@@ -1,7 +1,7 @@
 # Staging on Heroku
 [Staging url](https://heidi-react-storybook-test-app.herokuapp.com/)
 
-# Project dependencies
+# Project tool stack
 - React app
 - D3 - Data viz
 - Stitches - CSS Framework
