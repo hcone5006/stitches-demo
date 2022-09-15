@@ -55,7 +55,9 @@ export const Navbar = (props) => {
         <NavLink to="/" className="nav-links">Home</NavLink>
         <NavLink to="chart" className="nav-links">Chart</NavLink>
       </nav> */}
-      <Button size="small" variant="primary" label="Login" onClick={props.loginOnClick} />
+      <Button size="small" variant="primary" label="Login" 
+      // onClick={props.loginclick} 
+      />
     </StyledNavbar>
   )
 };

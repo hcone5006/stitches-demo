@@ -16,7 +16,10 @@ function Home() {
   
   return (
     <>
-      <Navbar bg="primary" loginOnClick={handleClick}>
+      <Navbar 
+      bg="primary" 
+      // loginclick={handleClick}
+      >
         <nav>
           <NavLink to="/" className="nav-links">Home</NavLink>
           <NavLink to="chart" className="nav-links">Chart</NavLink>
