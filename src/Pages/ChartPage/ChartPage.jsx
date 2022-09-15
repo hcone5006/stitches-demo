@@ -7,9 +7,9 @@ import AreaChart from "../../Components/Charts/AreaChart.jsx";
 // import { Box } from "../../Components/Box";
 
 function ChartPage() {
-  const handleClick = () => {
-    alert('Click happened');
-  };
+  // const handleClick = () => {
+  //   alert('Click happened');
+  // };
   
   return (
     <>
