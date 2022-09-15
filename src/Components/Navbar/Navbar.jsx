@@ -51,10 +51,6 @@ export const Navbar = (props) => {
         <span className="app-name">App-Demo</span>
       </Box>
       {props.children}
-      {/* <nav>
-        <NavLink to="/" className="nav-links">Home</NavLink>
-        <NavLink to="chart" className="nav-links">Chart</NavLink>
-      </nav> */}
       <Button size="small" variant="primary" label="Login" 
       // onClick={props.loginclick} 
       />
