@@ -27,6 +27,8 @@
     "babel-plugin-named-exports-order": "^0.0.2",
     "cypress": "^10.7.0",
     "prop-types": "^15.8.1",
+    "sass": "^1.54.9",
+    "storybook-design-token": "^2.7.0",
     "web-vitals": "^2.1.4",
     "webpack": "^5.74.0"
   },
